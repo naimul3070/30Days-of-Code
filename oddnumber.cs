@@ -1,30 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿////using System;
+////using System.Collections.Generic;
+////using System.Text;
 
-namespace NaimulIsam
-{
-    class oddnumber
-    {
-        static void Main(string[] args)
-        {
-            int a = 57;
+////namespace NaimulIsam
+////{
+////    class oddnumber
+////    {
+////        static void Main(string[] args)
+////        {
+////            int a = 57;
+////            Console.WriteLine("A : {0}", a);
+////            salami(ref a);
+////            Console.WriteLine("A : {0}", a);
+////            Console.ReadKey();
+////        }
 
-            int count = 0;
-            for(int i = 2; i < a; i++)
-            {
-                if (a% 1 == 0)
-                {
-                    count++;
-                }
-            }
-            if (count == 0)
-                Console.WriteLine("prime");
-            else
-                Console.WriteLine("Not Prime");
+////        static void salami(ref int b)
+////        {
+////            b = b + 50;
 
-
-            Console.ReadKey();
-        }
-    }
-}
+////            Console.WriteLine("F : {0}", b);
+////        }
+////    }
+////}
